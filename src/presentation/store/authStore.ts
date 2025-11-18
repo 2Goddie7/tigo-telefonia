@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { User, Session } from '@supabase/supabase-js';
-import { Perfil } from '@domain/entities';
-import { AuthRepository } from '@data/repositories/AuthRepository';
+import { Perfil } from '../../domain/entities';
+import { AuthRepository } from '../../data/repositories/AuthRepository';
 
 interface AuthState {
   // Estado

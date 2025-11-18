@@ -1,7 +1,7 @@
-import { supabase } from '@core/supabase/client';
-import { Perfil } from '@domain/entities';
+import { supabase } from '../../core/supabase/client';
+import { Perfil } from '../../domain/entities';
 import { AuthError, Session, User } from '@supabase/supabase-js';
-import type { Database } from '@core/supabase/database.types';
+import type { Database } from '../../core/supabase/database.types';
 
 type PerfilUpdate = Database['public']['Tables']['perfiles']['Update'];
 

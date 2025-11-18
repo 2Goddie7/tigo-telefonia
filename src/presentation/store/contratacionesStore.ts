@@ -1,7 +1,7 @@
 import { create } from 'zustand';
-import { Contratacion, CreateContratacionDTO, UpdateContratacionDTO } from '@domain/entities';
-import { ContratacionesRepository } from '@data/repositories/ContratacionesRepository';
-import { NotificationsService } from '@data/services/NotificationsService';
+import { Contratacion, CreateContratacionDTO, UpdateContratacionDTO } from '../../domain/entities';
+import { ContratacionesRepository } from '../../data/repositories/ContratacionesRepository';
+import { NotificationsService } from '../../data/services/NotificationsService';
 import { RealtimeChannel } from '@supabase/supabase-js';
 
 interface ContratacionesState {

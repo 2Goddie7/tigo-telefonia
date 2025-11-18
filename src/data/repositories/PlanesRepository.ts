@@ -1,8 +1,8 @@
-import { supabase } from '@core/supabase/client';
-import { PlanMovil, CreatePlanDTO } from '@domain/entities';
+import { supabase } from '../../core/supabase/client';
+import { PlanMovil, CreatePlanDTO } from '../../domain/entities';
 import * as ImagePicker from 'expo-image-picker';
 import { RealtimeChannel } from '@supabase/supabase-js';
-import type { Database } from '@core/supabase/database.types';
+import type { Database } from '../../core/supabase/database.types';
 
 type PlanRow = Database['public']['Tables']['planes_moviles']['Row'];
 type PlanInsert = Database['public']['Tables']['planes_moviles']['Insert'];

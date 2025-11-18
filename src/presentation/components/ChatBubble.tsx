@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { MensajeChat } from '@domain/entities';
+import { MensajeChat } from '../../domain/entities';
 import { colors } from '../styles/colors';
 import { spacing, borderRadius, fontSize } from '../styles/spacing';
 

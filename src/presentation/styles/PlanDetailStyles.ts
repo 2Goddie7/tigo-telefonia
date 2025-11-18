@@ -1,6 +1,6 @@
 // src/presentation/styles/PlanDetailStyles.ts
 import { StyleSheet } from 'react-native';
-import { colors, spacing, typography, radius } from '@/theme';
+import { colors, spacing, typography, radius } from '../../theme';
 
 export const styles = StyleSheet.create({
   safeArea: {

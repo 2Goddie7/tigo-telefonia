@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
-import { Contratacion } from '@domain/entities';
+import { Contratacion } from '../../domain/entities';
 import { format } from 'date-fns';
 import { es } from 'date-fns/locale';
 import { colors } from '../styles/colors';

@@ -1,6 +1,6 @@
 import { create } from 'zustand';
-import { PlanMovil, CreatePlanDTO } from '@domain/entities';
-import { PlanesRepository } from '@data/repositories/PlanesRepository';
+import { PlanMovil, CreatePlanDTO } from '../../domain/entities';
+import { PlanesRepository } from '../../data/repositories/PlanesRepository';
 import { RealtimeChannel } from '@supabase/supabase-js';
 
 interface PlanesState {

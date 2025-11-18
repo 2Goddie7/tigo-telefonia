@@ -1,7 +1,7 @@
-import { supabase } from '@core/supabase/client';
-import { Contratacion, PlanMovil, Perfil, CreateContratacionDTO, UpdateContratacionDTO } from '@domain/entities';
+import { supabase } from '../../core/supabase/client';
+import { Contratacion, PlanMovil, Perfil, CreateContratacionDTO, UpdateContratacionDTO } from '../../domain/entities';
 import { RealtimeChannel } from '@supabase/supabase-js';
-import { EstadoContratacion } from '@core/supabase/database.types';
+import { EstadoContratacion } from '../../core/supabase/database.types';
 
 export interface ContratacionResponse {
   success: boolean;

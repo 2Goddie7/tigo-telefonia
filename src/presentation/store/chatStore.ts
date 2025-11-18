@@ -1,7 +1,7 @@
 import { create } from 'zustand';
-import { MensajeChat, SendMessageDTO } from '@domain/entities';
-import { ChatRepository } from '@data/repositories/ChatRepository';
-import { NotificationsService } from '@data/services/NotificationsService';
+import { MensajeChat, SendMessageDTO } from '../../domain/entities';
+import { ChatRepository } from '../../data/repositories/ChatRepository';
+import { NotificationsService } from '../../data/services/NotificationsService';
 import { RealtimeChannel } from '@supabase/supabase-js';
 
 interface ChatState {
