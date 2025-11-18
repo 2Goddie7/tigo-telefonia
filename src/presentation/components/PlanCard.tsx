@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import { PlanMovil } from '@domain/entities';
+import { PlanMovil } from '../../domain/entities';
 import { colors } from '../styles/colors';
 import { spacing, borderRadius, fontSize } from '../styles/spacing';
 

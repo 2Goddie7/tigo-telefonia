@@ -23,7 +23,7 @@ const PerfilScreen: React.FC<Props> = ({ navigation }) => {
     <SafeAreaView
       style={{
         flex: 1,
-        backgroundColor: '#F9FAFB', // gray-50
+        backgroundColor: '#F9FAFB', // commit
       }}
     >
       <View
